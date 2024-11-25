@@ -1,0 +1,123 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-11-25 07:32:04.408281",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "employee_name",
+  "department",
+  "email_address",
+  "mobile_number",
+  "address",
+  "designation",
+  "column_break_hcbh",
+  "status",
+  "company",
+  "section_break_srbk",
+  "hired_on",
+  "column_break_imar",
+  "days_employed",
+  "column_break_gfjd",
+  "number_of_assigned_projects"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Employee Name"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "label": "Department",
+   "options": "Department"
+  },
+  {
+   "fieldname": "column_break_hcbh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "email_address",
+   "fieldtype": "Data",
+   "label": "Email Address"
+  },
+  {
+   "fieldname": "mobile_number",
+   "fieldtype": "Data",
+   "label": "Mobile Number"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "designation",
+   "fieldtype": "Data",
+   "label": "Designation"
+  },
+  {
+   "fieldname": "section_break_srbk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "hired_on",
+   "fieldtype": "Date",
+   "label": "Hired On"
+  },
+  {
+   "fieldname": "column_break_imar",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "days_employed",
+   "fieldtype": "Float",
+   "label": "Days Employed"
+  },
+  {
+   "fieldname": "column_break_gfjd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "number_of_assigned_projects",
+   "fieldtype": "Float",
+   "label": "Number of Assigned Projects"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-11-25 07:36:10.797183",
+ "modified_by": "Administrator",
+ "module": "Employee Management System",
+ "name": "Employee",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
