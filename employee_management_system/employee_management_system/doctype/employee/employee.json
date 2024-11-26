@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:{HR}-{#######}",
  "creation": "2024-11-25 07:32:04.408281",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -40,7 +41,8 @@
   {
    "fieldname": "status",
    "fieldtype": "Select",
-   "label": "Status"
+   "label": "Status",
+   "options": "\nApplication Received\nInterview Scheduled\nHired\nNot Accepted"
   },
   {
    "fieldname": "company",
@@ -83,7 +85,7 @@
   },
   {
    "fieldname": "days_employed",
-   "fieldtype": "Float",
+   "fieldtype": "Data",
    "label": "Days Employed"
   },
   {
@@ -98,10 +100,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-11-25 07:36:10.797183",
+ "modified": "2024-11-26 07:34:11.936954",
  "modified_by": "Administrator",
  "module": "Employee Management System",
  "name": "Employee",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
@@ -113,6 +116,18 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "HR Manager",
    "share": 1,
    "write": 1
   }

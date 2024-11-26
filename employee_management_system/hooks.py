@@ -83,7 +83,8 @@ app_license = "mit"
 # ------------
 
 # before_install = "employee_management_system.install.before_install"
-# after_install = "employee_management_system.install.after_install"
+after_install = "employee_management_system.install.after_install"
+after_migrate = "employee_management_system.install.after_install"
 
 # Uninstallation
 # ------------
